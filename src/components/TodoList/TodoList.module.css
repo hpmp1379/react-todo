@@ -1,0 +1,12 @@
+/* 11/11/22 */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-width: 0;
+    background-color: var(--color-bg);
+}
+.list {
+    flex: 1 1 auto;
+    overflow-y:auto;
+}

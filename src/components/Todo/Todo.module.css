@@ -1,0 +1,37 @@
+/* 11/11/22 */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 1rem;
+  margin: 0.1rem;
+  color: var(--color-text);
+}
+.checkbox {
+  width: 1.5rem;
+  height: 1.5rem;
+  accent-color: var(--color-accent);
+}
+.text {
+  flex: 1;
+  margin: 0 0.5red;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.icon {
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: var(--color-gray);
+  border-radius: 50%;
+  text-align: center;
+  transition: 150ms ease-out;
+}
+.icon:hover {
+  background-color: var(--color-accent);
+  transform: rotate(15deg) scale(1.2);
+}
+.button {
+  background-color: transparent;
+  position: relative;
+  top: 0.2rem;
+}
