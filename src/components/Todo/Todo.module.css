@@ -2,6 +2,7 @@
 .todo {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.5em 1rem;
   margin: 0.1rem;
   color: var(--color-text);
@@ -25,6 +26,7 @@
   border-radius: 50%;
   text-align: center;
   transition: 150ms ease-out;
+  cursor: pointer;
 }
 .icon:hover {
   background-color: var(--color-accent);
@@ -33,5 +35,5 @@
 .button {
   background-color: transparent;
   position: relative;
-  top: 0.2rem;
+  top: -0.1rem;
 }
